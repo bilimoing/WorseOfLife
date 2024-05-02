@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dX8scQGZ3Q6dsz+yLQZpwg6bYIgr3P59rEaLHHXoGN3msP9Am/czIOZa+mUQs51R6P869cY/Gb8iXmU35OMU7w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\WorseOfLife\\WorseOfLife.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
