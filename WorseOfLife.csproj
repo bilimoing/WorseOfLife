@@ -1,0 +1,25 @@
+
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\tModLoader.targets" />
+  <PropertyGroup>
+    <AssemblyName>WorseOfLife</AssemblyName>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AdditionalFiles Remove="Sounds\**" />
+    <Compile Remove="Sounds\**" />
+    <EmbeddedResource Remove="Sounds\**" />
+    <None Remove="Sounds\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="localization\zh-Hans.hjson" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\Players\" />
+    <Folder Include="Content\Prefixs\" />
+    <Folder Include="Textures\Achievements\" />
+    <Folder Include="Textures\Shader\" />
+  </ItemGroup>
+</Project>

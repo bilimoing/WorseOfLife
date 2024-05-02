@@ -1,0 +1,8 @@
+displayName = Worse Of Terraria 更差的体验
+author = 末泠
+version = 2024.5.1
+homepage = https://space.bilibili.com/1196822829?spm_id_from=333.1007.0.0
+hideCode = fasle
+hideResources = false
+includeSource = true
+includePDB = true
