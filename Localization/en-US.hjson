@@ -1,0 +1,309 @@
+Mods: {
+	WorseOfLife: {
+		Strings.Foodpoisoning: You have food poisoning!
+
+		Configs: {
+			TilesConfigs: {
+				MiningIntoStone: {
+					Tooltip: When enabled, mining ore has a 10% chance of turning into stone
+					Label: "[i:3] Mining ore has a 10% chance of turning into stone"
+				}
+
+				DisplayName: Tiles Configs
+
+				TorchBrightness: {
+					Tooltip: When enabled, torch brightness is reduced by 50%
+					Label: "[i:8] Torch brightness reduced by 50%"
+				}
+
+				CampfireDebuff: {
+					Tooltip: When enabled, you will be given debuff next to the campfire.
+					Label: "[i:966] Campfire Debuff"
+				}
+
+				JarBee: {
+					Tooltip: When enabled, breaking jars will generate bees that change according to the player's progress
+					Label: "[i:222] Break the jar to make bees"
+				}
+
+				HellstoneLavaSlime: {
+					Label: "[i:174] Hellstone spawns lava slimes"
+					Tooltip: When enabled, Hellstones will spawn lava slimes
+				}
+
+				Tombstoneaghost: {
+					Label: "[i:3230]  tombstone will out ghost"
+					Tooltip: When enabled, ghosts are guaranteed to appear when the gravestone is destroyed(Dig one up.)
+				}
+			}
+
+			ItemsConfigs: {
+				DisplayName: Items Configs
+
+				FoodPoisoning: {
+					Label: "[i:4035] Food poisoning"
+					Tooltip: When enabled, the food can only be eaten 3 times every 5 minutes, and the fourth time it will be poisoned
+				}
+
+				BaitPowerHalved: {
+					Label: "[i:2004] Bait power halved"
+					Tooltip: When enabled, the bait power of all baits is halved
+				}
+
+				DoubleMP: {
+					Tooltip: When enabled, all magic weapons cost x2 mana
+					Label: "[i:496] Magic cost x2"
+				}
+
+				DamageDefault: {
+					Tooltip: When enabled, all item damage will be changed to default
+					Label: "[i:3119] Item damage type is default"
+				}
+
+				Meleeweaponusemagic: {
+					Tooltip: When enabled, all melee weapons will now use 5 mana
+					Label: "[i:65] Melee weapons use mana"
+				}
+
+				AutoReuse: {
+					Tooltip: When enabled, auto reuse of items will be disabled
+					Label: "[i:4] Auto reuse off"
+				}
+
+				CritChanceDecreased: {
+					Label: "[i:1248] Crit Chance Greatly Reduced"
+					Tooltip: When enabled, crit chance is reduced by 10000%
+				}
+
+				MaxStack: {
+					Label: "[i:276] Item stack Max: 1"
+					Tooltip: When enabled, the maximum stack of items is 1
+				}
+
+				FishingPowerHalved: {
+					Label: "[i:2289] Fishing Pole Halved"
+					Tooltip: When enabled, the fishing power of all rods is halved
+				}
+
+				CopperPickaxe: {
+					Label: "[i:3509] Copper Pickaxe adjustment"
+					Tooltip: When enabled, the use time of the copper pickaxe is super fast and the pickaxe force is only 5
+				}
+
+				GravityPotionCooldown: {
+					Label: "[i:305] Gravity Potion Cooling"
+					Tooltip: When enabled, the control gravity will cool for 5 seconds
+				}
+
+				Itemmovement: {
+					Label: "[i:212] Item move"
+					Tooltip: When enabled, the items in your backpack will move, so grab them
+				}
+			}
+
+			DisplayConfigs: {
+				BossHPBar: {
+					Tooltip: When enabled, all boss health bar will disappear (dare not show boss health bar)
+					Label: "[i:1734] Boss Health Bar"
+				}
+
+				DisplayName: Display Configs
+
+				BlackScreen: {
+					Label: "[i:237] Visual fatigue"
+					Tooltip: When enabled, the screen will go black for a few seconds every 30 seconds (you should take a break)
+				}
+
+				Thedowntheblack: {
+					Label: "[i:236] The screen down the black"
+					Tooltip: When enabled, the screen gets darker as you go down
+				}
+
+				NPCHPBar: {
+					Label: "[i:4559] NPC Health Bar"
+					Tooltip: When enabled, all NPC health bar will disappear (dare not show health bar)
+				}
+
+				Draw: {
+					Label: "[i:1742] Draw Settings"
+					Tooltip: When enabled, the npc and ui will disappear and reappear every second
+				}
+
+				TheShaderOrNot: {
+					Label: "[i:3124] Shoot screen light shadow"
+					Tooltip: When turned on, your picture will be similar to that taken by your phone.
+				}
+			}
+
+			NPCsConfigs: {
+				BossAI: {
+					Tooltip: When enabled, some boss AI will change
+					Label: "[i:4797] Boss AI"
+				}
+
+				DisplayName: NPC Configs
+
+				NPCsDontDropItems: {
+					Label: "[i:3772] NPC Drop"
+					Tooltip: When enabled, NPC has 90% chance of not dropping items
+				}
+
+				NPCsRecoversHP: {
+					Label: "[i:1867] NPC HP Recovery"
+					Tooltip: When enabled, non-boss enemies will naturally recover HP
+				}
+
+				NPCDropsMoney: {
+					Label: "[i:74] NPC drops coins"
+					Tooltip: When enabled, NPCs will not drop coins
+				}
+
+				NPCSdodgeprojectiles: {
+					Label: "[i:320] NPC dodge projectile"
+					Tooltip: When enabled, NPCS will dodge player projectiles
+				}
+
+				TownNPCHostile: {
+					Label: "[i:2222] NPC Friendly Stats"
+					Tooltip: Turn off NPC's Friendly stats
+				}
+
+				EmemyAI: {
+					Tooltip: When enabled, some enemy AI will change
+					Label: "[i:3102] Enemy AI"
+				}
+			}
+
+			PlayerConfigs: {
+				DisplayName: Player Configs
+
+				Wingflighttimehalved: {
+					Label: "[i:4978] Wing flight time halved"
+					Tooltip: When enabled, the wing's maximum flight time will be halved
+				}
+
+				InitialHP: {
+					Label: "[i:1290] Player's initial health is greatly reduced"
+					Tooltip: When enabled, the player's initial health is 1
+				}
+
+				Fallingsuperslow: {
+					Label: "[i:1164] Player fall time"
+					Tooltip: When enabled, the player's fall time is super slow
+				}
+
+				Defensehalved: {
+					Label: "[i:410] Defense halved"
+					Tooltip: When enabled, defense is halved
+				}
+
+				Breathingtime: {
+					Label: "[i:1860] Breathing time"
+					Tooltip: When enabled, the player can breathe much less underwater
+				}
+
+				Respawntimedoubled: {
+					Label: "[i:3230] Player respawn time"
+					Tooltip: When enabled, the player respawns for 60 seconds
+				}
+
+				Luck: {
+					Tooltip: When enabled, player's luck is reduced by 30% in Hard mode
+					Label: "[i:855] Luck is greatly reduced"
+				}
+
+				Hititemdisappears: {
+					Label: "[i:3061] Hit Delete backpack items"
+					Tooltip: Hits have a 1% chance of clearing player items
+				}
+
+				Itemsdisappearafterdeath: {
+					Label: "[i:3333] Delete player items"
+					Tooltip: Remove all items from the knapsack when the player dies
+				}
+
+				HalvesMPHP: {
+					Label: "[i:1868] Mana and Health halved"
+					Tooltip: Mana and Health halved
+				}
+
+				SlimeMount: {
+					Label: "[i:2430] Slime Mount does not deal damage"
+					Tooltip: You can't step on the enemy
+				}
+
+				Beatthegame: {
+					Tooltip: After a hit, there is a 10% chance the game will quit
+					Label: "[i:3123] Pushed back out"
+				}
+
+				FallDmagefailed: {
+					Label: "[i:3250] falling damage immune probability"
+					Tooltip: You have a 50% chance of taking damage after equipping some accessories that are immune to drop damage
+				}
+			}
+
+			MapConfigs: {
+				DisplayName: Map Configs
+
+				HardStartmode: {
+					Label: "[i:1176] Start in Hard Mode"
+					Tooltip: Start in Hard Mode
+				}
+
+				ForcedMasterMode: {
+					Label: "[i:321] Forced Master Mode"
+					Tooltip: Your world will be forcibly locked into Master mode, even if you didn't choose it
+				}
+
+				RemoveShimmer: {
+					Label: "[i:5364] Remove shimmer"
+					Tooltip: When enabled, shimmer terrain will disappear
+				}
+			}
+		}
+
+		Buffs: {
+			FoodPoisoning: {
+				DisplayName: Food Poisoning
+				Description: You've got food poisoning!
+			}
+		}
+
+		Keybinds.死亡计数器.DisplayName: Death Counter
+
+		Items: {
+			Paper: {
+				Tooltip: Use to get tips
+				DisplayName: Paper
+			}
+		}
+
+		Achievements: {
+			Gel: {
+				Name: Gel Master
+				Description: You're amazing! You can collect so many gels! You Slime Slayer!
+			}
+
+			Ore: {
+				Name: Ore Hunter
+				Description: You collected all the ore! You're a liver man!
+			}
+
+			Chef: {
+				Name: Wilderness Chef
+				Description: Let's start cooking!
+			}
+
+			Hero: {
+				Name: unyielding brave man
+				Description: You've died 100 times, but you still can't give up. You, my friend! You're a real hero!
+			}
+
+			Altar: {
+				Name: Dark Burst
+				Description: You have destroyed all the demon altars, and divine power will descend!
+			}
+		}
+	}
+}

@@ -1,0 +1,313 @@
+Mods: {
+	WorseOfLife: {
+		Strings.Foodpoisoning: 你食物中毒了！
+
+		Configs: {
+			TilesConfigs: {
+				MiningIntoStone: {
+					Tooltip: 开启后，挖矿石有10%概率变成石块
+					Label: "[i:3] 挖矿石有10%概率变成石块"
+				}
+
+				DisplayName: 物块设置
+
+				TorchBrightness: {
+					Tooltip: 开启后，火把亮度减少50%
+					Label: "[i:8] 火把亮度减少50%"
+				}
+
+				CampfireDebuff: {
+					Tooltip: 开启后，在篝火旁边会被给予debuff
+					Label: "[i:966] 篝火Debuff"
+				}
+
+				JarBee: {
+					Tooltip: 开启后，打破罐子会生成蜜蜂，根据玩家进度改变
+					Label: "[i:222] 打破罐子生成蜜蜂"
+				}
+
+				HellstoneLavaSlime: {
+					Label: "[i:174] 狱石会生成熔岩史莱姆"
+					Tooltip: 开启后，挖狱石会生成熔岩史莱姆
+				}
+
+				Tombstoneaghost: {
+					Label: "[i:3230] 墓石必出鬼魂"
+					Tooltip: 开启后，墓石被破坏后会必出鬼魂(是挖一下一只哦）
+				}
+			}
+
+			ItemsConfigs: {
+				DisplayName: 物品设置
+
+				FoodPoisoning: {
+					Label: "[i:4035] 食物中毒"
+					Tooltip: 开启后，食物每5分钟只能吃3次，第四次就会中毒
+				}
+
+				BaitPowerHalved: {
+					Label: "[i:2004] 鱼饵力减半"
+					Tooltip: 开启后，所有鱼饵的鱼饵力减半
+				}
+
+				DoubleMP: {
+					Tooltip: 开启后，所有魔法武器的魔力消耗x2
+					Label: "[i:496] 魔力消耗x2"
+				}
+
+				DamageDefault: {
+					Tooltip: 开启后，所有物品伤害都会变为默认
+					Label: "[i:3119] 物品伤害类型为默认"
+				}
+
+				Meleeweaponusemagic: {
+					Tooltip: 开启后，所有近战武器将会使用5魔力值
+					Label: "[i:65] 近战武器使用魔力"
+				}
+
+				AutoReuse: {
+					Tooltip: 开启后，物品的自动挥舞关闭
+					Label: "[i:4] 自动挥舞关闭"
+				}
+
+				CritChanceDecreased: {
+					Label: "[i:1248] 暴击率大幅度减少"
+					Tooltip: 开启后，暴击率减少10000%
+				}
+
+				MaxStack: {
+					Label: "[i:276] 物品最大堆叠为1"
+					Tooltip: 开启后，物品最大堆叠为1
+				}
+
+				FishingPowerHalved: {
+					Label: "[i:2289] 渔力减半"
+					Tooltip: 开启后，所有的钓竿的渔力减半
+				}
+
+				CopperPickaxe: {
+					Label: "[i:3509] 铜镐调整"
+					Tooltip: 开启后，铜镐使用时间超快，镐力只有5
+				}
+
+				GravityPotionCooldown: {
+					Label: "[i:305] 重力药水冷却"
+					Tooltip: 开启后，控制重力会有5秒的冷却
+				}
+
+				Itemmovement: {
+					Label: "[i:212] 物品移动"
+					Tooltip: 开启后，你背包的物品会移动，快抓住它们
+				}
+			}
+
+			DisplayConfigs: {
+				BossHPBar: {
+					Tooltip: 开启后，所有Boss的血条就会消失（敢不敢亮出血条）
+					Label: "[i:1734] BOSS血条"
+				}
+
+				DisplayName: 显示设置
+
+				BlackScreen: {
+					Label: "[i:237] 视觉疲劳"
+					Tooltip: 开启后，每隔30秒屏幕就会变黑几秒（你该休息了）
+				}
+
+				Thedowntheblack: {
+					Label: "[i:236] 越往下屏幕越黑"
+					Tooltip: 开启后，越往下屏幕越黑
+				}
+
+				NPCHPBar: {
+					Label: "[i:4559] NPC血条"
+					Tooltip: 开启后，所有NPC的血条就会消失（敢不敢亮出血条）
+				}
+
+				Draw: {
+					Label: "[i:1742] 绘制设置"
+					Tooltip: 开启后，npc和ui会每隔一秒消失，然后再出现
+				}
+
+				TheShaderOrNot: {
+					Label: "[i:3124] 拍屏光影"
+					Tooltip:
+						'''
+						开启后，你的画面就和手机拍的差不多
+						渣机勿扰
+						'''
+				}
+			}
+
+			NPCsConfigs: {
+				BossAI: {
+					Tooltip: 开启后，一些boss的AI会改变
+					Label: "[i:4797] Boss AI"
+				}
+
+				DisplayName: NPC设置
+
+				NPCsDontDropItems: {
+					Label: "[i:3772] NPC掉落"
+					Tooltip: 开启后， NPC有90%概率不掉东西
+				}
+
+				NPCsRecoversHP: {
+					Label: "[i:1867] NPC回血"
+					Tooltip: 开启后，非boss敌怪会自然回血
+				}
+
+				NPCDropsMoney: {
+					Label: "[i:74] NPC掉落钱币"
+					Tooltip: 开启后，NPC不会掉落钱币
+				}
+
+				NPCSdodgeprojectiles: {
+					Label: "[i:320] NPC躲避弹幕"
+					Tooltip: 开启后，NPC会躲避玩家的弹幕
+				}
+
+				TownNPCHostile: {
+					Label: "[i:2222] NPC友好属性"
+					Tooltip: 关闭NPC的友好属性
+				}
+
+				EmemyAI: {
+					Tooltip: 开启后，一些敌怪AI会改变
+					Label: "[i:3102] 敌怪AI"
+				}
+			}
+
+			PlayerConfigs: {
+				DisplayName: 玩家设置
+
+				Wingflighttimehalved: {
+					Label: "[i:4978] 翅膀飞行时间减半"
+					Tooltip: 开启后，翅膀的最大飞行时间将会减半
+				}
+
+				InitialHP: {
+					Label: "[i:1290] 玩家初始血量大幅减少"
+					Tooltip: 开启后，玩家的初始生命值为1
+				}
+
+				Fallingsuperslow: {
+					Label: "[i:1164] 玩家下落时间"
+					Tooltip: 开启后，玩家的下落时间会超级慢
+				}
+
+				Defensehalved: {
+					Label: "[i:410] 防御减半"
+					Tooltip: 开启后，防御减半
+				}
+
+				Breathingtime: {
+					Label: "[i:1860] 呼吸时间"
+					Tooltip: 开启后，玩家在水下的呼吸时间大大减少
+				}
+
+				Respawntimedoubled: {
+					Label: "[i:3230] 玩家复活时间"
+					Tooltip: 开启后，玩家的复活时间变为60秒
+				}
+
+				Luck: {
+					Tooltip: 开启后，困难模式时玩家幸运值降低30%
+					Label: "[i:855] 幸运值大幅降低"
+				}
+
+				Hititemdisappears: {
+					Label: "[i:3061] 受击删除背包物品"
+					Tooltip: 受击有1%的概率清除玩家物品
+				}
+
+				Itemsdisappearafterdeath: {
+					Label: "[i:3333] 删除玩家物品"
+					Tooltip: 玩家死后删除背包所有物品
+				}
+
+				HalvesMPHP: {
+					Label: "[i:1868] 魔力与血量减半"
+					Tooltip: 魔力与血量减半
+				}
+
+				SlimeMount: {
+					Label: "[i:2430] 史莱姆坐骑没有伤害"
+					Tooltip: 你再也不能踩敌怪了
+				}
+
+				Beatthegame: {
+					Tooltip: 受击后，有10%的概率游戏退出
+					Label: "[i:3123] 受击退出"
+				}
+
+				FallDmagefailed: {
+					Label: "[i:3250] 掉落伤害免疫概率"
+					Tooltip: 你装备上一些可以免疫掉落伤害的饰品之后，有50%的概率还会受到伤害
+				}
+			}
+
+			MapConfigs: {
+				DisplayName: 地图设置
+
+				HardStartmode: {
+					Label: "[i:1176] 开局困难模式"
+					Tooltip: 开局困难模式
+				}
+
+				ForcedMasterMode: {
+					Label: "[i:321] 强制大师模式"
+					Tooltip: 你的世界会被强制锁定在大师模式，即使你没有选
+				}
+
+				RemoveShimmer: {
+					Label: "[i:5364] 移除微光"
+					Tooltip: 开启后，微光地形将会消失
+				}
+			}
+		}
+
+		Buffs: {
+			FoodPoisoning: {
+				DisplayName: 食物中毒
+				Description: 你食物中毒了！
+			}
+		}
+
+		Keybinds.死亡计数器.DisplayName: 死亡计数器
+
+		Items: {
+			Paper: {
+				Tooltip: 使用来获得提示
+				DisplayName: 纸
+			}
+		}
+
+		Achievements: {
+			Gel: {
+				Name: 凝胶大师
+				Description: 你太惊人了！你居然可以收集这么多凝胶！你个史莱姆杀手!
+			}
+
+			Ore: {
+				Name: 矿石猎人
+				Description: 你收集了所有矿石！你是个肝佬呢！
+			}
+
+			Chef: {
+				Name: 荒野厨师
+				Description: 开始来做饭吧！
+			}
+
+			Hero: {
+				Name: 不屈的勇者
+				Description: 你已经死亡了100次了，但是你依然不可放弃。你，我的朋友！你是真正的英雄！
+			}
+
+			Altar: {
+				Name: 黑暗破灭
+				Description: 你破坏了所有的恶魔祭坛，神圣的力量将降临！
+			}
+		}
+	}
+}
